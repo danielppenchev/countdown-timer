@@ -1,0 +1,97 @@
+body {
+    background: linear-gradient(to right, rgba(41, 126, 191, 0.41), rgba(97, 33, 199, 0.718));
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Quicksand', sans-serif;
+    color: rgba(255, 255, 255, 0.95);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+h1, form {
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.name, .date, .time-zone, #on-error {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    max-width: 15rem;
+    font-size: 1.5rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name div, .date div, .time-zone div {
+    margin-bottom: 0.5rem;
+}
+
+input {
+    background: linear-gradient(to left, rgba(41, 126, 191, 0.41), rgba(97, 33, 199, 0.718));
+    height: 1.5rem;
+    width: 15rem;
+    border-radius: 5px;
+    border-color: transparent;
+    color: rgba(255, 255, 255, 0.95);
+}
+
+input:focus {
+    background: rgba(0, 0, 255, 0.539);
+    outline: none;
+}
+
+.error {
+    background-color: rgba(255, 0, 0, 0.625);
+}
+
+#on-error {
+    background-color: rgba(255, 0, 0, 0.626);
+    margin: 1.5rem auto;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: bold;
+    display: none;
+}
+
+#countdown-timer {
+    height: 25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#countdown-timer > div {
+    margin: 10rem auto;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.time-display {
+    font-size: 5rem;
+}
+
+button {
+    width: 10rem;
+    height: 5rem;
+    margin: 5% 85%;
+    padding: 0;
+    font-size: 2.5rem;
+    color: rgba(255, 255, 255, 0.95);
+    background: linear-gradient(to left, rgba(41, 126, 191, 0.41), rgba(97, 33, 199, 0.718));
+    border-radius: 5px;
+    border-color: transparent;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+}
